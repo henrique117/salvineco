@@ -1,0 +1,91 @@
+/* cabecalho */
+.cabecalho{
+    background-color: #C4C4C4;
+    border-color: black;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    padding: 5px;  
+    justify-content: space-between;
+    border-radius: 5px;
+}
+.lista{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.lista li{
+    padding-left:10px; 
+    padding-right: 40px;
+    list-style-type: none;
+    font-family: "Mukta";
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+
+/* main */
+.quemsomos h1{
+    font-family:"Mukta";
+    font-size: 50px;
+    background-color: #C4C4C4 ;
+    border-radius: 5px;
+}
+.quemsomos .titulo{
+    width: 350px;
+    text-align: center;
+    margin-left: 35%;
+}
+.quemsomos {
+    background-color: #807287;
+    align-items: center;
+}
+.quemsomos p{
+    font-family:"Mukta";
+    font-size: 20px;
+    text-align:center;
+    text-indent: 10px;
+}
+.quemsomos .paragrafo{
+    background-color: #BAAEBE ;
+    width: 300px;
+    border-radius: 5px;
+    margin-left: 10%;
+    padding: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+body{
+    background-color: #807287;
+}
+
+
+
+/* rodape */
+.rodape{
+    background-color: #C4C4C4;
+    border-color: black;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    padding: 5px;  
+    justify-content: space-between;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+.listarodape{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.listarodape li{
+    padding-left:40px; 
+    padding-right: 40px;
+    list-style-type: none;
+    font-family: "Mukta";
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
