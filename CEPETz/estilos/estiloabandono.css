@@ -33,13 +33,19 @@ a{
     border-radius: 5px;
 }
 .abandonosmaustratos .titulo{
-    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
     text-align: center;
-    margin-left: 30%;
+    margin: auto;
 }
 .abandonosmaustratos {
-    background-color: #807287;
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    background-color: #807287;
 }
 .abandonosmaustratos p{
     font-family:"Mukta";
@@ -48,10 +54,14 @@ a{
     text-indent: 10px;
 }
 .abandonosmaustratos .paragrafo{
+    margin: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
     background-color: #BAAEBE ;
-    width: 1000px;
+    width: 80%;
+    max-width: 1000px;
     border-radius: 5px;
-    margin-left: 10%;
     padding: 2px;
     padding-left: 2px;
     padding-right: 2px;
@@ -59,10 +69,8 @@ a{
 body{
     background-color: #807287;
 }
-.imagens img{
-  margin: 2%;
-  margin-left: 35%;
-  margin-right: 35%;
+img{
+  margin-top: 40px;
 }
 
 

@@ -33,9 +33,13 @@ a{
     border-radius: 5px;
 }
 .quemsomos .titulo{
-    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 350px;
     text-align: center;
-    margin-left: 35%;
+    margin: auto;
 }
 .quemsomos {
     background-color: #807287;
@@ -48,10 +52,14 @@ a{
     text-indent: 10px;
 }
 .quemsomos .paragrafo{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #BAAEBE ;
-    width: 300px;
+    max-width: 300px;
+    width: 80%;
     border-radius: 5px;
-    margin-left: 10%;
     padding: 2px;
     padding-left: 2px;
     padding-right: 2px;

@@ -33,13 +33,16 @@ a{
     border-radius: 5px;
 }
 .curiosidadesracas .titulo{
-    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
     text-align: center;
-    margin-left: 30%;
+    margin: auto;
 }
 .curiosidadesracas {
     background-color: #807287;
-    align-items: center;
 }
 .curiosidadesracas p{
     font-family:"Mukta";
@@ -48,10 +51,14 @@ a{
     text-indent: 10px;
 }
 .curiosidadesracas .paragrafo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #BAAEBE ;
-    width: 1000px;
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
     border-radius: 5px;
-    margin-left: 10%;
     padding: 2px;
     padding-left: 2px;
     padding-right: 2px;
@@ -59,10 +66,9 @@ a{
 body{
     background-color: #807287;
 }
-.imagens img{
-  margin: 2%;
-  margin-left: 35%;
-  margin-right: 35%;
+img{
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 

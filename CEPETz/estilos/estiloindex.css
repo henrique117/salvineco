@@ -33,13 +33,16 @@ a{
     border-radius: 5px;
 }
 .sobrenos .titulo{
-    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 350px;
     text-align: center;
-    margin-left: 35%;
+    margin: auto;
 }
 .sobrenos {
     background-color: #807287;
-    align-items: center;
 }
 .sobrenos p{
     font-family:"Mukta";
@@ -48,10 +51,14 @@ a{
     text-indent: 10px;
 }
 .sobrenos .paragrafo{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #BAAEBE ;
-    width: 1000px;
+    width: 80%;
+    max-width: 1000px;
     border-radius: 5px;
-    margin-left: 10%;
     padding: 2px;
     padding-left: 2px;
     padding-right: 2px;
