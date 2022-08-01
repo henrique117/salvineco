@@ -26,13 +26,13 @@ a{
 }
 
 /* main */
-.quemsomos h1{
+.projetos h1{
     font-family:"Mukta";
     font-size: 50px;
     background-color: #C4C4C4 ;
     border-radius: 5px;
 }
-.quemsomos .titulo{
+.projetos .titulo{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -41,24 +41,40 @@ a{
     text-align: center;
     margin: auto;
 }
-.quemsomos {
+.projetos {
     background-color: #807287;
     align-items: center;
 }
-.quemsomos p{
+.projetos .imagens {
+    display: flex;
+    margin-bottom: 40px;
+}
+.imagens img {
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.projetos p{
     font-family:"Mukta";
     font-size: 20px;
     text-align:center;
     text-indent: 10px;
 }
-.quemsomos .paragrafo{
+.projetos .paragrafo{
     margin: auto;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #BAAEBE ;
-    max-width: 300px;
+    max-width: 1000px;
     width: 80%;
+    border-radius: 5px;
+    padding: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.fundo {
+    background-color: #BAAEBE;
     border-radius: 5px;
     padding: 2px;
     padding-left: 2px;
@@ -67,8 +83,6 @@ a{
 body{
     background-color: #807287;
 }
-
-
 
 /* rodape */
 .rodape{
